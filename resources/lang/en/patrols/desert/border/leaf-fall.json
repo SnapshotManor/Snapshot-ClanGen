@@ -1,1 +1,54 @@
-[]
+[{
+    "patrol_id": "dst_bord_awdattack",
+    "biome": ["desert"],
+    "season": ["leaf-fall"],
+    "types": ["border"],
+    "tags": [],
+    "patrol_art": "bord_general_intro",
+    "min_cats": 3,
+    "max_cats": 3,
+    "min_max_status": {},
+    "weight": 20,
+    "intro_text": "p_l and {PRONOUN/p_l/poss} patrol padded through the territory, blinking against the sudden gusts of wind, when they heard a sound that made them all freeze.. a chorus of squeaks and yips that sounded a bit <i>too</i> close.",
+    "decline_text": "The patrol decides not to approach the sound, recognizing that it could be dangerous.",
+    "chance_of_success": 30,
+    "success_outcomes": [
+        {
+            "text": "p_l thought {PRONOUN/p_l/subject} knew what to expect when {PRONOUN/p_l/subject} urged {PRONOUN/p_l/poss} patrol forward, towards the noise. Yet, {PRONOUN/p_l/subject} {VERB/p_l/were/was} shocked to find a pack of wild dogs feasting on an animal big enough to feed c_n for six moons. The patrol would stare in awe for a moment before r_c would urge them to leave; if these animals can take down a beast like that, what's stopping the creatures from killing them, too?",
+            "exp": 10,
+            "weight": 20,
+            "relationships": [
+                {
+                    "cats_to": ["p_l"],
+                    "cats_from": ["patrol"],
+                    "mutual": false,
+                    "values": ["trust", "respect"],
+                    "amount": -15
+                }
+            ]
+        }
+    ],
+    "fail_outcomes": [
+        {
+            "text": "p_l instructed {PRONOUN/p_l/poss} cats forward, nearing the noise rather quickly. The group would stride out in front of a wild dog, the creature yipping excitably. Before any of them could react, another one lept from the right, then the left.. They were surrounded, hollers and yips deafening them as they tried, and failed, to escape. A gaggle of cats were no match for hungry canines.",
+            "exp": 0,
+            "weight": 10,
+            "dead_cats": ["patrol"],
+            "history_text": {
+                "reg_death": "This cat was ambushed by a pack of wild dogs.",
+                "lead_death": "ambushed by a pack of wild dogs"
+            }
+        },
+        {
+            "text": "Under the instruction of p_l, the patrol would cautiously approach the noise. Though, caution would never undermine the capability of wild dogs.. Before the cats knew it, they were surrounded. No matter what r_c tried to do or say, {PRONOUN/r_c/subject} couldn't stop the creatures as {PRONOUN/r_c/poss} Clanmates got picked off. Cornered by a dog {PRONOUN/r_c/self}, r_c tried to think of a way to escape. Without a second thought, {PRONOUN/r_c/subject} kicked up a pile of sand, stunning the creature as sand seared it's eyes, giving {PRONOUN/r_c/object} a chance to escape.",
+            "exp": 0,
+            "weight": 10,
+            "dead_cats": ["r_c", "r_c"],
+            "history_text": {
+                "reg_death": "This cat died to a pack of wild dogs.",
+                "lead_death": "died to a pack of wild dogs"
+            }
+        }
+    ]
+}
+]
