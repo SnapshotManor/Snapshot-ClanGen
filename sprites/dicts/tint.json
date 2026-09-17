@@ -30,6 +30,7 @@
     "GOLDEN-BROWN": "brown",
     "DARKBROWN": "darkbrown",
     "CHOCOLATE": "darkbrown",
+    "MALLOW": "lightbrown",
     "RUST": "rust"
   },
   "possible_tints": {
