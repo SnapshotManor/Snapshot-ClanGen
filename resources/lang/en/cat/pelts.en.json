@@ -17,6 +17,10 @@
             "one": "gray",
             "many": "gray"
         },
+        "ASH": {
+            "one": "gray",
+            "many": "gray"
+        },
         "DARKGREY": {
             "one": "gray",
             "many": "dark gray"
@@ -26,6 +30,14 @@
             "many": "black"
         },
         "BLACK": {
+            "one": "black",
+            "many": "black"
+        },
+        "RAVEN": {
+            "one": "black",
+            "many": "black"
+        },
+        "OBSIDIAN": {
             "one": "black",
             "many": "black"
         },
@@ -49,6 +61,10 @@
             "one": "golden",
             "many": "golden"
         },
+        "HONEY": {
+            "one": "golden",
+            "many": "golden"
+        },
         "GINGER": {
             "one": "ginger",
             "many": "ginger"
@@ -60,6 +76,18 @@
         "SIENNA": {
             "one": "ginger",
             "many": "dark ginger"
+        },
+        "RED": {
+            "one": "ginger",
+            "many": "dark ginger"
+        },
+        "TWILIGHT": {
+            "one": "twilight",
+            "many": "twilight"
+        },
+        "DUSK": {
+            "one": "dusk",
+            "many": "dusk"
         },
         "LIGHTBROWN": {
             "one": "brown",
